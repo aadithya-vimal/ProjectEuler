@@ -9,4 +9,4 @@ while b <= top:
     if b%2 == 0:
         answer += b
     a, b = b, a+b
-print(answer)
+print(f"Sum of even Fibonacci numbers: {answer}")

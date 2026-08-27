@@ -15,7 +15,7 @@ while not foundKValue:
 # Starting from number 2 as 1 is not included
 for num in range(2,((k*(9**5))+1)):
     originalNum = num
-    sum = 0
+    digit_sum = 0
     arr = []
     while num>0:
         digit = num % 10

@@ -21,10 +21,8 @@ for num in range(2,((k*(9**5))+1)):
         digit = num % 10
         arr.append(digit)
         num //= 10
-    power = len(arr)-1
     for elem in arr:
-        sum += elem**5
-        power -= 1
-    if sum == originalNum:
+        digit_sum += elem**5
+    if digit_sum == originalNum:
         totalSum += originalNum
 print(f"The total sum of all required numbers is: {totalSum}")

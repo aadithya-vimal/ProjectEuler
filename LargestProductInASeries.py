@@ -10,7 +10,6 @@ def productOfDigits(num):
         product *= digit
         num //= 10
     return product
-# Number of iterations: 1000/13 = 76.92307692307692
 # We take last 13 digits, then remove those digits and continue till we are left with max product
 maxProduct = 0
 resultantDigits = 0
